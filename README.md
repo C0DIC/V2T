@@ -14,7 +14,7 @@ Voice to text converter app. Still in work.
 1. Ctrl+S - save file
 2. Ctrl+O - open file
 3. Ctrl+Q - quit app
-<<<<<<< HEAD
+
 4. Duration is number of amount of seconds that app will listen for audio file
 
 =======
