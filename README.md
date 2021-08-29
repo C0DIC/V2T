@@ -9,8 +9,9 @@ Voice to text converter app. Still in work.
 1. Open any .wav or .flac file
 
 **App**
-Ctrl+S - save file
-Ctrl+O - open file
+1. Ctrl+S - save file
+2. Ctrl+O - open file
+3. Ctrl+Q - quit app
 
 Duration is number of amount of seconds that app will listen for audio file
 ---
@@ -21,5 +22,5 @@ Duration is number of amount of seconds that app will listen for audio file
 3. Speech_recognition (pip/pip3 install speech_recognition)
 ---
 # Contacts & feedback
-Telegram - @throwntothewolves
-Gmail - <openloji@gmail.com>
+1. Telegram - @throwntothewolves
+2. Gmail - <openloji@gmail.com>
