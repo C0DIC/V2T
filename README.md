@@ -16,6 +16,12 @@ Voice to text converter app. Still in work.
 3. Ctrl+Q - quit app
 
 4. Duration is number of amount of seconds that app will listen for audio file
+
+**Run**
+
+1. cmod +x vrttrun.py
+2. ./vttrun.py
+
 ---
 # Requirements
 
