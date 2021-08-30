@@ -17,7 +17,7 @@ from tkinter import (
     HORIZONTAL,
     StringVar
 )
-from config import config
+from .config import config
 
 
 class VoiceToTextApp:
@@ -29,7 +29,7 @@ class VoiceToTextApp:
         self.config = config
 
         self.projectName = "V2T"
-        self.version = "0.0.2"
+        self.version = "0.0.2.1"
         self.appName = f"{self.projectName} {self.version}"
 
         self.openedFileName = StringVar()
@@ -40,7 +40,7 @@ class VoiceToTextApp:
 
         self.frame.pack(side = BOTTOM, expand = True, fill = BOTH)
 
-        self.master.title(self.appName)
+        self.master.title(self.projectName)
         self.master.config(bg = self.config["materialGray"])
         self.master.minsize(width='500', height='400')
         self.master.maxsize(width='1280', height='500')
@@ -157,6 +157,7 @@ class VoiceToTextApp:
     def closeApp(self, event):
         self.master.destroy()
 
-if __name__ == "__main__":
+
+def run():
     master = Tk()
     app = VoiceToTextApp(master)
