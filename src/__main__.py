@@ -1,4 +1,5 @@
-import os
+import os, pycountry, time
+from posixpath import expanduser
 import speech_recognition as sr
 from tkinter import (
     Tk,
@@ -39,7 +40,7 @@ class VoiceToTextApp:
 
         self.frame.pack(side = BOTTOM, expand = True, fill = BOTH)
 
-        self.master.title(self.projectName)
+        self.master.title(self.appName)
         self.master.config(bg = self.config["materialGray"])
         self.master.minsize(width='500', height='400')
         self.master.maxsize(width='1280', height='500')
@@ -127,8 +128,7 @@ class VoiceToTextApp:
             
             self.sourceFileName = str(os.path.basename(files.name))
             self.changeLabel(self.sourceFileName)
-
-            self.returnText(sr.AudioFile(self.sourceFileName))
+            self.returnText(sr.AudioFile(files.name))
         except AttributeError:
             self.changeLabel("No File Opened")
 
