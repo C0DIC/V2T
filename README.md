@@ -30,5 +30,5 @@ Voice to text converter app. Still in work.
 3. Speech_recognition (pip/pip3 install speech_recognition)
 ---
 # Contacts & feedback
-1. Telegram - @throwntothewolves
-2. Gmail - <openloji@gmail.com>
+1. Telegram - @codicn
+2. Gmail - <jpcodic101@gmail.com>
